@@ -46,7 +46,7 @@ Mehrere Items können innerhalb des Containers angeordnet werden und bilden ein 
 
 ## Editor
 
-![Screenshot des Blocks im Editor mit mehreren Card Grid Items und bearbeitbaren Inhalten direkt im Block.](assets/editor-card-grid.png)
+![Screenshot des Blocks im Editor mit mehreren Card Grid Items und bearbeitbaren Inhalten direkt im Block.](assets/ud-card-grid-editor.png)
 
 - Layout wird im Container definiert
 - Inhalte werden direkt in den Items gepflegt
