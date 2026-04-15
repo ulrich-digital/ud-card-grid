@@ -56,7 +56,7 @@ Mehrere Items können innerhalb des Containers angeordnet werden und bilden ein 
 
 ## Frontend
 
-![Beispielhafte Darstellung eines Kartenrasters mit mehreren Cards und unterschiedlichen Inhalten.](assets/frontend-card-grid.png)
+![Beispielhafte Darstellung eines Kartenrasters mit mehreren Cards und unterschiedlichen Inhalten.](assets/ud-card-grid-frontend.png)
 
 Die Darstellung erfolgt als flexibles Grid mit individuell befüllbaren Karten. Styling und Verhalten werden über Theme und Block-Styles gesteuert.
 
