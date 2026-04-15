@@ -36,11 +36,11 @@ Mehrere Items können innerhalb des Containers angeordnet werden und bilden ein 
 
 **Card Grid (Container)**
 - Definiert Rasterstruktur und Layout
-- Gibt Layout-Werte (z. B. Gap, Max-Width) an die Items weiter :contentReference[oaicite:0]{index=0}  
+- Gibt Layout-Werte (z. B. Gap, Max-Width) an die Items weiter 
 
 **Card Grid Item (Einzelblock)**
-- Nur innerhalb des Containers verfügbar :contentReference[oaicite:1]{index=1}  
-- Rendert Inhalte wie Eyebrow, Titel und Text :contentReference[oaicite:2]{index=2}  
+- Nur innerhalb des Containers verfügbar
+- Rendert Inhalte wie Eyebrow, Titel und Text
 
 ---
 
@@ -64,12 +64,12 @@ Die Darstellung erfolgt als flexibles Grid mit individuell befüllbaren Karten. 
 
 ## Technische Hinweise
 
-- Block-Registrierung erfolgt aus dem `build/blocks`-Verzeichnis :contentReference[oaicite:3]{index=3}  
+- Block-Registrierung erfolgt aus dem `build/blocks`-Verzeichnis 
 - Zwei Blöcke:
-  - `ud/card-grid` (Container) :contentReference[oaicite:4]{index=4}  
-  - `ud/card-grid-item` (Einzelelement) :contentReference[oaicite:5]{index=5}  
-- Container übergibt Layout-Werte via Block Context an die Items :contentReference[oaicite:6]{index=6}  
-- Zentrale Logik über `helpers.php`, `render.php`, `enqueue.php` :contentReference[oaicite:7]{index=7}  
+- `ud/card-grid` (Container)
+- `ud/card-grid-item` (Einzelelement)
+- Container übergibt Layout-Werte via Block Context an die Items
+- Zentrale Logik über `helpers.php`, `render.php`, `enqueue.php`
 
 ---
 
