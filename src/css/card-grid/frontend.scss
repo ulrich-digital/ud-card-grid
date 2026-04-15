@@ -1,0 +1,8 @@
+.wp-block-ud-card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 260px);
+	gap: 42px;
+	justify-content: center;
+	box-sizing: border-box;
+    margin: 2rem auto;
+}

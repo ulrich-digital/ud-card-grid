@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "ud/card-grid-item",
+    "version": "1.0.0",
+    "title": "UD Card Grid Item",
+    "category": "design",
+    "icon": "index-card",
+    "description": "Einzelne Karte innerhalb des UD Card Grid.",
+    "keywords": [
+        "card",
+        "grid",
+        "item"
+    ],
+    "textdomain": "ud-card-grid-ud",
+    "parent": [
+        "ud/card-grid"
+    ],
+    "supports": {
+        "html": false,
+        "reusable": false,
+        "anchor": false
+    },
+    "attributes": {
+        "background": {
+            "type": "string",
+            "default": "material-holz"
+        },
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": ".ud-card-grid-item__title"
+        },
+        "eyebrow": {
+            "type": "string",
+            "source": "html",
+            "selector": ".ud-card-grid-item__eyebrow"
+        },
+        "text": {
+            "type": "string",
+            "source": "html",
+            "selector": ".ud-card-grid-item__text"
+        }
+    },
+    "editorScript": "file:../../card-grid-item-editor-script.js",
+    "editorStyle": "file:../../card-grid-item-editor-style.css",
+    "script": "file:../../card-grid-item-frontend-script.js",
+    "style": "file:../../card-grid-item-frontend-style.css"
+}

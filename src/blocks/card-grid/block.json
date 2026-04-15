@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "ud/card-grid",
+    "version": "1.0.0",
+    "title": "UD Card Grid",
+    "category": "design",
+    "icon": "screenoptions",
+    "description": "Wrapper-Block für ein Kartenraster mit mehreren Card-Grid-Items.",
+    "keywords": [
+        "cards",
+        "grid",
+        "layout"
+    ],
+    "textdomain": "ud-card-grid-ud",
+    "supports": {
+        "html": false,
+        "anchor": true,
+        "align": [
+            "wide",
+            "full"
+        ]
+    },
+    "attributes": {
+        "itemMaxWidth": {
+            "type": "string",
+            "default": "420px"
+        },
+        "gap": {
+            "type": "string",
+            "default": "32px"
+        }
+    },
+    "providesContext": {
+        "ud/cardGridItemMaxWidth": "itemMaxWidth",
+        "ud/cardGridGap": "gap"
+    },
+    "editorScript": "file:../../card-grid-editor-script.js",
+    "editorStyle": "file:../../card-grid-editor-style.css",
+    "script": "file:../../card-grid-frontend-script.js",
+    "style": "file:../../card-grid-frontend-style.css"
+}

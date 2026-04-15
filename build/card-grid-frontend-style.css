@@ -1,0 +1,13 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/card-grid/frontend.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ud-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  gap: 42px;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 2rem auto;
+}
+
+/*# sourceMappingURL=card-grid-frontend-style.css.map*/
